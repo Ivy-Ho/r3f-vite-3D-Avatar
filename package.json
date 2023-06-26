@@ -1,12 +1,9 @@
 {
   "name": "r3f-vite-3D-Avatar",
-  "homepage": "https://ivy-ho.github.io/r3f-vite-3D-Avatar/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -15,7 +12,6 @@
     "@react-three/drei": "9.75.0",
     "@react-three/fiber": "8.13.3",
     "@types/three": "0.152.1",
-    "gh-pages": "^5.0.0",
     "leva": "^0.9.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
